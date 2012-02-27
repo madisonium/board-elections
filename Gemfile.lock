@@ -1,0 +1,14 @@
+PATH
+  remote: ~/dev/vote-schulze
+  specs:
+    vote-schulze (0.2.0)
+
+GEM
+  remote: http://rubygems.org/
+  specs:
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  vote-schulze!
