@@ -75,6 +75,13 @@ var nominees = [
     img_src: ""
   },
   {
+    name: "Preston Austin",
+    title: "",
+    bio: "",
+    img_src: "",
+    incumbent: true
+  },
+  {
     name: "Scott Resnick",
     title: "",
     bio: "",
