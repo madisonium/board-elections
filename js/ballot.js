@@ -22,8 +22,8 @@ var nominees = [
   {
     name: "Cate Amery",
     title: "User Experience Designer/Developer at Promega; Co-Organizer of Madison Women in Tech; Organizer of Madison UX Book Club",
-    bio: "",
-    img_src: ""
+    bio: "User Experience Designer. Front-End Developer. Co-organizer of Madison Women in Tech. Speaker. LEGO aficionado.",
+    img_src: "cate_amery.jpg"
   },
   {
     name: "Forrest Woolworth",
