@@ -2,6 +2,31 @@
   color: white;
 }
 
+.nominee img {
+  width: 80px;
+  height: 80px;
+  margin-right: 1em;
+  float: left;
+}
+
+.nominee .bio {
+  *zoom:1;
+}
+
+.nominee .bio:before {
+  content: " "; display: table; }
+.nominee .bio:after {
+  content: " "; display: table; }
+.nominee .bio:after {
+  clear: both; }
+
+.nominee .incumbent {
+  text-align: center;
+  font-size: 70%;
+  color: #6f6f6f;
+  text-transform: uppercase;
+}
+
 footer {
   /*border-style: solid;*/
   /*border-width: 1px 0 0 0;*/

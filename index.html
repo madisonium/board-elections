@@ -24,13 +24,23 @@
               <h3>Vote for our leadership!</h3>
               <p>We need you, the members of the Madison tech scene, to decide who our next board members should be.</p>
               <p>If you're familiar with Madisonium already, hold on! We're changing how things work a bit. Board members only need to attend quarterly Board meetings, rather than our more frequent Community meetings. Obviously, we'd love to see our board members participate regularly, but for the purposes of Madisonium, Board members will be discussing more operational and organizational topics.</p>
+              <p>The election goes from February 11th through February 18th.</p>
             </div>
             <div class="large-4 medium-4 columns">
               <div class="callout panel">
-                <h3>Nominate someone!</h3>
-                <p>Nominations open January 28th and close February 3rd. The election goes from February 4th through February 10th.</p>
-                <p>Know someone who you think would excel at guiding Madisonium's future?</p>
-                <a href="mailto:elections@madisonium.org?subject=Nomination" class="small button">Submit a Nomination!</a>
+                <h3>How to Vote!</h3>
+                <p>Send an email to <a href="mailto:elections@madisonium.org?subject=My%20Vote">elections@madisonium.org</a> with your choices in the following format:</p>
+                <code><pre>
+1. Abraham Lincoln
+   George Washington
+2. Thomas Jefferson
+3. John Adams
+   Andrew Jackson
+
+</pre>
+                </code>
+                <p>Note that you may assign ties to your choices, and you may include as many names on your ballot as you'd like. Also, write-ins are perfectly acceptable!</p>
+                <a href="mailto:elections@madisonium.org?subject=My%20Vote" class="small button">Vote!</a>
               </div>
             </div>
           </div>
@@ -40,60 +50,16 @@
 
     <div class="row">
       <div class="large-12 medium-12 columns">
-        <h5>Our current board</h5>
+        <h5>The Nominees (shown in random order)</h5>
 
-        <div class="row">
-          <div class="large-4 columns">
-            <div class="callout panel">
-              <p><strong>Brad Grzesiak</strong> (Chair)</p>
+        <div id="nominees">
+          <noscript>
+            <div class="row">
+              <div class="large-12 columns">
+                <p>Javascript is required so that we can randomize the nominees</p>
+              </div>
             </div>
-          </div>
-          <div class="large-4 columns">
-            <div class="callout panel">
-              <p><strong>Steve Faulkner</strong> (Vice Chair)</p>
-            </div>
-          </div>
-          <div class="large-4 columns">
-            <div class="callout panel">
-              <p><strong>Alnisa Allgood</strong></p>
-            </div>
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="large-4 columns">
-            <div class="callout panel">
-              <p><strong>Preston Austin</strong></p>
-            </div>
-          </div>
-          <div class="large-4 columns">
-            <div class="callout panel">
-              <p><strong>Zach Brandon</strong></p>
-            </div>
-          </div>
-          <div class="large-4 columns">
-            <div class="callout panel">
-              <p><strong>Grant Dobbe</strong></p>
-            </div>
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="large-4 columns">
-            <div class="callout panel">
-              <p><strong>Tim Nott</strong></p>
-            </div>
-          </div>
-          <div class="large-4 columns">
-            <div class="callout panel">
-              <p><strong>Scott Resnick</strong></p>
-            </div>
-          </div>
-          <div class="large-4 columns">
-            <div class="callout panel">
-              <p><strong>Forrest Woolworth</strong></p>
-            </div>
-          </div>
+          </noscript>
         </div>
 
       </div>
@@ -104,13 +70,16 @@
         <div class="row">
           <div class="large-12 columns">
             <p>&copy; 2014 Madisonium, Inc.</p>
+            <p>User icon &copy; Lorena Salagre via <a href="http://thenounproject.com/term/user/32251/">Noun Project</a> under CC BY 3.0</p>
           </div>
         </div>
       </div>
     </footer>
 
     <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/underscore-min.js"></script>
     <script src="js/foundation.min.js"></script>
+    <script src="js/ballot.js"></script>
     <script>
       $(document).foundation();
     </script>
