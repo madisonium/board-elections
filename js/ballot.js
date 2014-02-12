@@ -59,8 +59,8 @@ var nominees = [
   {
     name: "Joe Sweeney",
     title: "CEO & Director 100state",
-    bio: "",
-    img_src: ""
+    bio: "Interested in leveraging technology & entrepreneurship to solve problems, build community, and improve the world.",
+    img_src: "joe_sweeney.jpg"
   },
   {
     name: "Le Osburn",
