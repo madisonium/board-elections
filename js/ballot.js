@@ -97,9 +97,9 @@ var nominees = [
   },
   {
     name: "Zach Brandon",
-    title: "",
+    title: "President of the Greater Madison Chamber of Commerce",
     bio: "",
-    img_src: "",
+    img_src: "zach_brandon.jpg",
     incumbent: true
   },
   {
