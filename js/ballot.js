@@ -98,7 +98,7 @@ var nominees = [
   {
     name: "Zach Brandon",
     title: "President of the Greater Madison Chamber of Commerce",
-    bio: "",
+    bio: "State & national angel investment expert. Former Deputy Secretary of Commerce. Led 3 startups.",
     img_src: "zach_brandon.jpg",
     incumbent: true
   },
